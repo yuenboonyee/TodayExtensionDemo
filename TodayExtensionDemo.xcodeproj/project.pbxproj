@@ -18,6 +18,8 @@
 		960F5C351AA25397005951E4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960F5C341AA25397005951E4 /* MainInterface.storyboard */; };
 		960F5C381AA25397005951E4 /* TodayExtensionWithDataSharing.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 960F5C2B1AA25397005951E4 /* TodayExtensionWithDataSharing.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		960F5C3E1AA268D1005951E4 /* _Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 960F5C3D1AA268D1005951E4 /* _Readme.txt */; };
+		960F5C421AA286C8005951E4 /* ButtonGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F5C411AA286C8005951E4 /* ButtonGridViewController.swift */; };
+		960F5C431AA286C8005951E4 /* ButtonGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F5C411AA286C8005951E4 /* ButtonGridViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,7 @@
 		960F5C3D1AA268D1005951E4 /* _Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _Readme.txt; sourceTree = "<group>"; };
 		960F5C3F1AA26D33005951E4 /* TodayExtensionDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TodayExtensionDemo.entitlements; sourceTree = "<group>"; };
 		960F5C401AA26DCE005951E4 /* TodayExtensionWithDataSharing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TodayExtensionWithDataSharing.entitlements; sourceTree = "<group>"; };
+		960F5C411AA286C8005951E4 /* ButtonGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonGridViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,7 @@
 			children = (
 				960F5C3F1AA26D33005951E4 /* TodayExtensionDemo.entitlements */,
 				960F5C051AA1A574005951E4 /* AppDelegate.swift */,
+				960F5C411AA286C8005951E4 /* ButtonGridViewController.swift */,
 				960F5C071AA1A574005951E4 /* ViewController.swift */,
 				960F5C091AA1A574005951E4 /* Main.storyboard */,
 				960F5C0C1AA1A574005951E4 /* Images.xcassets */,
@@ -331,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				960F5C081AA1A574005951E4 /* ViewController.swift in Sources */,
+				960F5C421AA286C8005951E4 /* ButtonGridViewController.swift in Sources */,
 				960F5C061AA1A574005951E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				960F5C431AA286C8005951E4 /* ButtonGridViewController.swift in Sources */,
 				960F5C331AA25397005951E4 /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
