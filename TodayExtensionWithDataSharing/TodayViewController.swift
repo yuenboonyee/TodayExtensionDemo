@@ -31,4 +31,13 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         completionHandler(NCUpdateResult.NewData)
     }
     
+    
+    //MARK: NCWidgetProviding conformance
+    /*!
+    @abstract Returns no edge insets.
+    */
+    func widgetMarginInsetsForProposedMarginInsets
+        (defaultMarginInsets: UIEdgeInsets) -> (UIEdgeInsets) {
+            return UIEdgeInsetsZero
+    }
 }
