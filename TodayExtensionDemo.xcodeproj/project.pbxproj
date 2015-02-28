@@ -17,6 +17,7 @@
 		960F5C331AA25397005951E4 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F5C321AA25397005951E4 /* TodayViewController.swift */; };
 		960F5C351AA25397005951E4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960F5C341AA25397005951E4 /* MainInterface.storyboard */; };
 		960F5C381AA25397005951E4 /* TodayExtensionWithDataSharing.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 960F5C2B1AA25397005951E4 /* TodayExtensionWithDataSharing.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		960F5C3E1AA268D1005951E4 /* _Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 960F5C3D1AA268D1005951E4 /* _Readme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		960F5C311AA25397005951E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		960F5C321AA25397005951E4 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		960F5C341AA25397005951E4 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		960F5C3D1AA268D1005951E4 /* _Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _Readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		960F5BF71AA1A574005951E4 = {
 			isa = PBXGroup;
 			children = (
+				960F5C3D1AA268D1005951E4 /* _Readme.txt */,
 				960F5C021AA1A574005951E4 /* TodayExtensionDemo */,
 				960F5C181AA1A574005951E4 /* TodayExtensionDemoTests */,
 				960F5C2F1AA25397005951E4 /* TodayExtensionWithDataSharing */,
@@ -284,6 +287,7 @@
 			files = (
 				960F5C0B1AA1A574005951E4 /* Main.storyboard in Resources */,
 				960F5C101AA1A574005951E4 /* LaunchScreen.xib in Resources */,
+				960F5C3E1AA268D1005951E4 /* _Readme.txt in Resources */,
 				960F5C0D1AA1A574005951E4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
