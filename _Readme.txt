@@ -18,3 +18,6 @@ NSUserDefaults *mySharedDefaults = [[NSUserDefaults alloc] initWithSuiteName:
 References:
 Apple's 'App Extension Programming Guide' (2 Feb 2015) - Sharing data with Your Containing App
     - https://developer.apple.com/library/mac/documentation/General/Conceptual/ExtensibilityPG/index.html
+
+How to create iOS 8 Today extension and share data with containing app – tutorial
+    - http://www.glimsoft.com/06/28/ios-8-today-extension-tutorial/

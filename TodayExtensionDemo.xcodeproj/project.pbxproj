@@ -68,6 +68,8 @@
 		960F5C321AA25397005951E4 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		960F5C341AA25397005951E4 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		960F5C3D1AA268D1005951E4 /* _Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _Readme.txt; sourceTree = "<group>"; };
+		960F5C3F1AA26D33005951E4 /* TodayExtensionDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TodayExtensionDemo.entitlements; sourceTree = "<group>"; };
+		960F5C401AA26DCE005951E4 /* TodayExtensionWithDataSharing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TodayExtensionWithDataSharing.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		960F5C021AA1A574005951E4 /* TodayExtensionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				960F5C3F1AA26D33005951E4 /* TodayExtensionDemo.entitlements */,
 				960F5C051AA1A574005951E4 /* AppDelegate.swift */,
 				960F5C071AA1A574005951E4 /* ViewController.swift */,
 				960F5C091AA1A574005951E4 /* Main.storyboard */,
@@ -167,6 +170,7 @@
 		960F5C2F1AA25397005951E4 /* TodayExtensionWithDataSharing */ = {
 			isa = PBXGroup;
 			children = (
+				960F5C401AA26DCE005951E4 /* TodayExtensionWithDataSharing.entitlements */,
 				960F5C321AA25397005951E4 /* TodayViewController.swift */,
 				960F5C341AA25397005951E4 /* MainInterface.storyboard */,
 				960F5C301AA25397005951E4 /* Supporting Files */,
@@ -250,6 +254,12 @@
 				TargetAttributes = {
 					960F5BFF1AA1A574005951E4 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 5NT3DBK37K;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					960F5C141AA1A574005951E4 = {
 						CreatedOnToolsVersion = 6.3;
@@ -257,6 +267,12 @@
 					};
 					960F5C2A1AA25397005951E4 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 5NT3DBK37K;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -453,10 +469,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TodayExtensionDemo/TodayExtensionDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = TodayExtensionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -465,10 +485,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TodayExtensionDemo/TodayExtensionDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = TodayExtensionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -510,6 +534,9 @@
 		960F5C3A1AA25398005951E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodayExtensionWithDataSharing/TodayExtensionWithDataSharing.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -517,6 +544,7 @@
 				INFOPLIST_FILE = TodayExtensionWithDataSharing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -524,9 +552,13 @@
 		960F5C3B1AA25398005951E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodayExtensionWithDataSharing/TodayExtensionWithDataSharing.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TodayExtensionWithDataSharing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
