@@ -33,6 +33,10 @@ class ButtonGridViewController: UIViewController {
         var notificationCenter: NSNotificationCenter = NSNotificationCenter.defaultCenter()
         notificationCenter.postNotificationName("ButtonGridViewControllerRefreshNotification", object: self)
     }
+    override func viewWillDisappear(animated: Bool) {
+        var notificationCenter: NSNotificationCenter = NSNotificationCenter.defaultCenter()
+        notificationCenter.removeObserver(self)
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
