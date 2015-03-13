@@ -65,7 +65,7 @@ class ButtonGridViewController: UIViewController {
             originalValue = sharedDefaults?.boolForKey(String(tag))
             var button:UIButton = self.view.viewWithTag(tag) as! UIButton
             if((originalValue == true)){
-                button.alpha = 0.2
+                button.alpha = 0.1
             }else{
                 button.alpha = 1.0
             }
